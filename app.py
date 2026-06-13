@@ -54,19 +54,19 @@ st.markdown("""
             100% { background-size: 120% 120%, 120% 120%, 120% 120%, cover, cover; }
         }
 
-        /* MASSIVE Global Sizing */
-        html, body, [class*="css"], [class*="st-"] {
-            font-size: 1.8rem !important;
+        /* Desktop Global Sizing */
+        html, body {
+            font-size: 16px !important;
         }
         p, li {
-            font-size: 1.6rem !important;
-            line-height: 1.8 !important;
+            font-size: 1.2rem !important;
+            line-height: 1.6 !important;
         }
-        h1 { font-size: 4.5rem !important; }
-        h2 { font-size: 3.5rem !important; }
-        h3 { font-size: 2.8rem !important; }
+        h1 { font-size: 3.5rem !important; }
+        h2 { font-size: 2.5rem !important; }
+        h3 { font-size: 1.8rem !important; }
         .stMarkdown {
-            font-size: 1.8rem !important;
+            font-size: 1.2rem !important;
         }
 
         /* Mobile Responsive Sizing */
