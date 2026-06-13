@@ -69,6 +69,25 @@ st.markdown("""
             font-size: 1.8rem !important;
         }
 
+        /* Mobile Responsive Sizing */
+        @media (max-width: 768px) {
+            html, body, [class*="css"], [class*="st-"], .stMarkdown {
+                font-size: 1.0rem !important;
+            }
+            p, li { font-size: 1.0rem !important; line-height: 1.4 !important; }
+            h1 { font-size: 2.2rem !important; }
+            h2 { font-size: 1.8rem !important; }
+            h3 { font-size: 1.4rem !important; }
+            
+            .prediction-hero h1 { font-size: 3rem !important; }
+            .prediction-hero h2 { font-size: 1.8rem !important; }
+            .prediction-hero p { font-size: 1.2rem !important; }
+            .hero-container::before { font-size: 10rem !important; }
+            
+            /* Fix wrapping for VS span */
+            .prediction-hero span { min-width: 80px !important; font-size: 1.2rem !important; white-space: normal !important; word-break: break-word; }
+        }
+
         /* Hero Container */
         .hero-container {
             position: relative;
